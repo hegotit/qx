@@ -1,0 +1,11 @@
+#!name = 智慧食堂
+#!desc = 智慧食堂
+#!openUrl =
+#!author =
+#!openUrl =
+
+#[Script]
+^https:\/\/.*cngm\.cn-np\.com.* url script-request-body https://raw.githubusercontent.com/hegotit/qx/refs/heads/main/task/smartCanteen.js
+
+#[MITM]
+hostname = *.cngm.cn-np.com, cngm.cn-np.com, *.smart-area-api.cn-np.com, smart-area-api.cn-np.com
